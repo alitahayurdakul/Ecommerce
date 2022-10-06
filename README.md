@@ -1,4 +1,4 @@
-#ECommerce Project
+# ECommerce Project
 Content:
 * Search Products
 * Add to your cart
