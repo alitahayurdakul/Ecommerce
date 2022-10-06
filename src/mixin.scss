@@ -1,0 +1,28 @@
+@import "./variables.scss";
+
+@mixin btn() {
+  background-color: $hoverColor2;
+  border: 1px solid $hoverColor2;
+  color: white;
+  cursor: pointer;
+  outline: 0;
+
+  &:hover {
+    background-color: $color2;
+    border-color: $color2;
+    transition: $transition;
+  }
+}
+
+@mixin commonInputSelect() {
+  padding: 10px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  color: $inputColor;
+  outline: none;
+
+  &:focus {
+    border: 2px solid $inputColor;
+    transition: $transition;
+  }
+}
